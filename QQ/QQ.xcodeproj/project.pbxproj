@@ -15,6 +15,7 @@
 		9864ECE32029807300782290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9864ECE22029807300782290 /* main.m */; };
 		9864ECED2029807300782290 /* QQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9864ECEC2029807300782290 /* QQTests.m */; };
 		9864ECF82029807300782290 /* QQUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9864ECF72029807300782290 /* QQUITests.m */; };
+		9864ED072029843D00782290 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9864ED062029843D00782290 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9864ECF32029807300782290 /* QQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9864ECF72029807300782290 /* QQUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQUITests.m; sourceTree = "<group>"; };
 		9864ECF92029807300782290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9864ED052029843D00782290 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9864ED062029843D00782290 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9864ECD42029807300782290 /* AppDelegate.m */,
 				9864ECD62029807300782290 /* ViewController.h */,
 				9864ECD72029807300782290 /* ViewController.m */,
+				9864ED052029843D00782290 /* Person.h */,
+				9864ED062029843D00782290 /* Person.m */,
 				9864ECD92029807300782290 /* Main.storyboard */,
 				9864ECDC2029807300782290 /* Assets.xcassets */,
 				9864ECDE2029807300782290 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				9864ECD82029807300782290 /* ViewController.m in Sources */,
 				9864ECE32029807300782290 /* main.m in Sources */,
+				9864ED072029843D00782290 /* Person.m in Sources */,
 				9864ECD52029807300782290 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
